@@ -54,7 +54,7 @@ class Main {
 		};
 
         this.camera_.position.set(0, 10, 0);
-        this.camera_.rotation.x = -0.1 * Math.PI;
+        this.camera_.rotation.x = -0.12 * Math.PI;
         this.scene_.position.set(0, 0, 0);
         this.player = new BasicController(basicParams);
 
