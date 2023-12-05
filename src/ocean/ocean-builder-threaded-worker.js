@@ -77,11 +77,11 @@ class OceanBuilderThreadedWorker {
 		const bytesInInt32 = 4;
 		
 
-		const positionsArray = new Float32Array(new SharedArrayBuffer(bytesInFloat32 * positions.length));
-        const widthArray = new Float32Array(new SharedArrayBuffer(bytesInFloat32 * vindices.length));
-		const vindicesArray = new Uint32Array(new SharedArrayBuffer(bytesInInt32 * vindices.length));
-		const indicesArray = new Uint32Array(new SharedArrayBuffer(bytesInInt32 * indices.length));
-        const lodArray = new Uint32Array(new SharedArrayBuffer(bytesInInt32 * vindices.length));
+		const positionsArray = new Float32Array(new ArrayBuffer(bytesInFloat32 * positions.length));
+        const widthArray = new Float32Array(new ArrayBuffer(bytesInFloat32 * vindices.length));
+		const vindicesArray = new Uint32Array(new ArrayBuffer(bytesInInt32 * vindices.length));
+		const indicesArray = new Uint32Array(new ArrayBuffer(bytesInInt32 * indices.length));
+        const lodArray = new Uint32Array(new ArrayBuffer(bytesInInt32 * vindices.length));
 
 
 		positionsArray.set(positions, 0);
