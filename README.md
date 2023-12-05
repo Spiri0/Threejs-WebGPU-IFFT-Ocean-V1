@@ -1,6 +1,6 @@
 # Threejs-WebGPU-IFFT-Ocean-V1
 
-This is the first version of my threejs webGPU oceans. There is still a lot to do but also a lot has already been achieved.
+This is the first version of my threejs webGPU ocean. There is still a lot to do but also a lot has already been achieved.
 
 The camera can be moved using arrow keys and WASD
 
