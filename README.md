@@ -15,5 +15,7 @@ Not all parameters are in the GUI
 ocean/ocean-constants.js QT_OCEAN_MIN_CELL_RESOLUTION: 12,  must be a multiple of 2
 waves/wave-constants.js TEXTURE_SIZE: 256,  must be 2^n = ... 32,..., 128, 256, 512, ...
 
+My goal is a great Ocean in ThreeJS and a lot more is needed.
 
+But I hope that everyone likes the current status and that it demonstrates what enormous possibilities threejs offers with its webGPURenderer and the new node system.
 
