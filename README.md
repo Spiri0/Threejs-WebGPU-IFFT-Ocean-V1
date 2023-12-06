@@ -12,8 +12,8 @@ There's still a lot missing and I've only made the camera controls rudimentary b
 
 Not all parameters are in the GUI
 
-ocean/ocean-constants.js QT_OCEAN_MIN_CELL_RESOLUTION: 12,  must be a multiple of 2
-waves/wave-constants.js TEXTURE_SIZE: 256,  must be 2^n = ... 32,..., 128, 256, 512, ...
+- ocean/ocean-constants.js QT_OCEAN_MIN_CELL_RESOLUTION: 12,  must be a multiple of 2
+- waves/wave-constants.js TEXTURE_SIZE: 256,  must be 2^n = ... 32,..., 128, 256, 512, ...
 
 My goal is a great Ocean in ThreeJS and a lot more is needed.
 The increasing noise with distance comes from the fact that there are more and more texture pixels on fewer and fewer screen pixels. This will be solved with:
