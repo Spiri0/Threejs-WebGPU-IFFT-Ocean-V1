@@ -27,4 +27,3 @@ There will be more important elements included that will ensure that you can see
 All of these things will come and contribute to the ocean becoming photorealistic.
 
 P.S. With threejs r160 I integrated mipmaps, filters and anisotropy. But not uploaded here yet. I would like to do a general update only with further important extensions in threejs.
-
