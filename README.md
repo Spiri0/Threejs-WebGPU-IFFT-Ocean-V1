@@ -26,5 +26,5 @@ These mechanisms adapt the number of texture pixels better to the number of scre
 There will be more important elements included that will ensure that you can see through the water with authentic light refraction and absorption...
 All of these things will come and contribute to the ocean becoming photorealistic.
 
-But I hope that everyone likes the current status with V1 and that it demonstrates what enormous possibilities threejs offers with its WebGPURenderer and the new node system.
+With threejs r160 I integrated mipmaps, filters and anisotropy. But not uploaded here yet. I would like to do a general update only with further important extensions in threejs.
 
